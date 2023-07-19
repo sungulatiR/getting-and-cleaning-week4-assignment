@@ -120,3 +120,4 @@ Merged_DataMeans <- Merged_Data %>%
 # output to file "tidy_data.txt"
 write.table(Merged_DataMeans, "tidy_data.txt", row.names = FALSE, 
             quote = FALSE)
+
